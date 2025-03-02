@@ -9,8 +9,8 @@ environments:
 plugins:
   extractors:
   - name: tap-csv
-    variant: meltano
-    pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+    variant: meltanolabs
+    pip_url: git+https://github.com/meltanolabs/tap-csv.git
     config:
       files:
       - entity: raw_customers
